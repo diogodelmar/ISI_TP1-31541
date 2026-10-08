@@ -1,0 +1,214 @@
+2026-10-08 10:23:39,048 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-08 10:23:39,048 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-08 10:23:39,048 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.12.0.v202606180846 (Build June 15, 2026)       #
+2026-10-08 10:23:39,048 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-10-08 10:23:39,048 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-08 10:23:39,048 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-08 10:23:39,048 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-08 10:23:39,048 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-10-08 10:23:39,048 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-10-08 10:23:39,048 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-10-08 10:23:39,048 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-08 10:23:39,048 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-08 10:23:39,048 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-10-08 10:23:39,048 : INFO  : main :  : NodeLogger :  :  : # C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\knime.log
+2026-10-08 10:23:39,048 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-10-08 10:23:39,072 : INFO  : main :  : NodeLogger :  :  : # logging date=quinta out. 08 10:23:39 WEST 2026
+2026-10-08 10:23:39,072 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-10-08 10:23:39,072 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-10-08 10:23:39,072 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-10-08 10:23:39,072 : INFO  : main :  : NodeLogger :  :  : # os.name=Windows 11
+2026-10-08 10:23:39,072 : INFO  : main :  : NodeLogger :  :  : # os.arch=amd64
+2026-10-08 10:23:39,072 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=12
+2026-10-08 10:23:39,072 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-10-08 10:23:39,080 : INFO  : main :  : NodeLogger :  :  : # host=I1600-dgoncalves
+2026-10-08 10:23:39,113 : INFO  : main :  : NodeLogger :  :  : # username=dgoncalves
+2026-10-08 10:23:39,114 : INFO  : main :  : NodeLogger :  :  : # max mem=8028MB
+2026-10-08 10:23:39,114 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-10-08 10:23:39,155 : INFO  : main :  : NodeLogger :  :  : # KNID=11-3d420a1e690a4c43-01-2072bf4b4b9c3863
+2026-10-08 10:23:39,155 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-08 10:23:15,963 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-10-08 10:23:42,933 : INFO  : main :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_database_drivers.txt' does not exist.
+2026-10-08 10:23:42,933 : INFO  : main :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_database_urls.txt' does not exist.
+2026-10-08 10:23:46,477 : INFO  : Node Repository Initializer :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-08 10:23:46,507 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_string2date-formats.txt' does not exist.
+2026-10-08 10:23:47,185 : INFO  : main :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-10-08 10:23:47,185 : INFO  : main :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-10-08 10:23:49,352 : INFO  : Node Repository Initializer :  : Pivot2NodeFactory :  :  : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-08 10:23:49,566 : INFO  : Node Repository Initializer :  : GroupByNodeFactory :  :  : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-08 10:23:50,377 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_createFileNameHistoryKey.txt' does not exist.
+2026-10-08 10:23:50,508 : INFO  : main :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_org.knime.kerberos.name.txt' does not exist.
+2026-10-08 10:23:51,456 : INFO  : Thread-170 :  : KnimeBrowserView :  :  : %cinfo%c Injecting global logger 
+      background: #00BCD4;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-08 10:23:52,366 : INFO  : Node Repository Initializer :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-08 10:23:52,684 : ERROR : Thread-788 :  : KnimeBrowserView :  :  : Problem loading UI resources at 'https://org.knime.ui.java/videos/5-4-Explain-Workflow.webm'. See log for details.
+java.lang.NullPointerException: Cannot invoke "java.net.URL.openStream()" because the return value of "org.eclipse.core.runtime.FileLocator.toFileURL(java.net.URL)" is null
+	at org.knime.ui.java.browser.lifecycle.Create.lambda$4(Create.java:187)
+	at org.knime.js.cef.middleware.CEFMiddlewareService.lambda$1(CEFMiddlewareService.java:180)
+	at com.equo.middleware.ee.provider.handler.DelegatingSchemeHandler.getResponseData(DelegatingSchemeHandler.java:61)
+	at com.equo.chromium.swt.internal.spi.DelegatingCefResourceHandler.getResponseHeaders(DelegatingCefResourceHandler.java:57)
+2026-10-08 10:24:01,029 : ERROR : Thread-1074 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-08 10:24:01,029 : ERROR : Thread-1076 :  : KnimeBrowserView :  :  : Uncaught (in promise) AbortError: The play() request was interrupted because the media was removed from the document. https://goo.gl/LdLk22 (source: https://org.knime.ui.java/editor/index.html#/get-started; line: 0)
+2026-10-08 10:24:02,650 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-08 10:24:02,667 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-08 10:24:02,668 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-08 10:24:02,699 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-08 10:24:02,737 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-08 10:24:02,738 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-08 10:24:02,753 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-08 10:24:02,754 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-08 10:24:02,758 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-08 10:24:48,992 : INFO  : ModalContext :  : LoadWorkflowRunnable :  :  : New workflow created.
+2026-10-08 10:24:50,499 : ERROR : Thread-2796 :  : KnimeBrowserView :  :  : Problem loading UI resources at 'https://org.knime.ui.java/videos/5-4-KAI-Building-Mode.webm'. See log for details.
+java.lang.NullPointerException: Cannot invoke "java.net.URL.openStream()" because the return value of "org.eclipse.core.runtime.FileLocator.toFileURL(java.net.URL)" is null
+	at org.knime.ui.java.browser.lifecycle.Create.lambda$4(Create.java:187)
+	at org.knime.js.cef.middleware.CEFMiddlewareService.lambda$1(CEFMiddlewareService.java:180)
+	at com.equo.middleware.ee.provider.handler.DelegatingSchemeHandler.getResponseData(DelegatingSchemeHandler.java:61)
+	at com.equo.chromium.swt.internal.spi.DelegatingCefResourceHandler.getResponseHeaders(DelegatingCefResourceHandler.java:57)
+2026-10-08 10:24:53,740 : ERROR : Thread-3013 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-08 10:24:53,740 : ERROR : Thread-3015 :  : KnimeBrowserView :  :  : Uncaught (in promise) AbortError: The play() request was interrupted because the media was removed from the document. https://goo.gl/LdLk22 (source: https://org.knime.ui.java/editor/index.html#/workflow/Pipeline_Auditoria_Frota_2cb884a2-5e48-43b8-a161-7626bd8f4ba1/root?version; line: 0)
+2026-10-08 10:25:20,200 : WARN  : comm-pool-thread-1 :  : Node : CSV Reader : 3:1 : Please specify a file
+2026-10-08 10:26:08,962 : ERROR : Thread-6298 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-08 10:26:08,985 : INFO  : KNIME-Worker-0-CSV Reader 3:1 :  : LocalNodeExecutionJob : CSV Reader : 3:1 : CSV Reader 3:1 End execute (0 secs)
+2026-10-08 10:26:11,378 : ERROR : Thread-6642 :  : KnimeBrowserView :  :  : Problem loading UI resources at 'https://org.knime.ui.java/videos/5-4-Build-Mode-Small-Workflow.webm'. See log for details.
+java.lang.NullPointerException: Cannot invoke "java.net.URL.openStream()" because the return value of "org.eclipse.core.runtime.FileLocator.toFileURL(java.net.URL)" is null
+	at org.knime.ui.java.browser.lifecycle.Create.lambda$4(Create.java:187)
+	at org.knime.js.cef.middleware.CEFMiddlewareService.lambda$1(CEFMiddlewareService.java:180)
+	at com.equo.middleware.ee.provider.handler.DelegatingSchemeHandler.getResponseData(DelegatingSchemeHandler.java:61)
+	at com.equo.chromium.swt.internal.spi.DelegatingCefResourceHandler.getResponseHeaders(DelegatingCefResourceHandler.java:57)
+2026-10-08 10:26:13,683 : ERROR : Thread-6779 :  : KnimeBrowserView :  :  : %cerror%c Unhandled rejection:: 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object PromiseRejectionEvent] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-08 10:26:13,684 : ERROR : Thread-6781 :  : KnimeBrowserView :  :  : Uncaught (in promise) AbortError: The play() request was interrupted because the media was removed from the document. https://goo.gl/LdLk22 (source: https://org.knime.ui.java/editor/index.html#/workflow/Pipeline_Auditoria_Frota_2cb884a2-5e48-43b8-a161-7626bd8f4ba1/root?version; line: 0)
+2026-10-08 10:26:46,294 : WARN  : comm-pool-thread-4 :  : Node : XML Reader : 3:2 : Please specify a file
+2026-10-08 10:27:00,551 : INFO  : KNIME-Worker-0-XML Reader 3:2 :  : LocalNodeExecutionJob : XML Reader : 3:2 : XML Reader 3:2 End execute (0 secs)
+2026-10-08 10:31:47,739 : INFO  : KNIME-Worker-1-XPath 3:3 :  : LocalNodeExecutionJob : XPath : 3:3 : XPath 3:3 End execute (0 secs)
+2026-10-08 10:34:21,694 : INFO  : comm-pool-thread-3 :  : NodeRecommendationManager :  :  : Loading node recommendations from <org.knime.core.ui.workflowcoach.data.PrefsTripleProvider>
+2026-10-08 10:34:21,694 : INFO  : comm-pool-thread-3 :  : NodeRecommendationManager :  :  : Loading node recommendations from <org.knime.workbench.workflowcoach.data.CommunityTripleProvider>
+2026-10-08 10:34:21,861 : INFO  : comm-pool-thread-3 :  : NodeRecommendationManager :  :  : Loading node recommendations from <org.knime.workbench.workflowcoach.local.data.WorkspaceTripleProvider>
+2026-10-08 10:34:21,862 : INFO  : comm-pool-thread-3 :  : NodeRecommendationManager :  :  : Successfully (re-)loaded all node recommendations available
+2026-10-08 10:34:39,679 : WARN  : comm-pool-thread-5 :  : Node : CSV Reader : 3:4 : Please specify a file
+2026-10-08 10:34:53,436 : INFO  : KNIME-Worker-1-CSV Reader 3:4 :  : LocalNodeExecutionJob : CSV Reader : 3:4 : CSV Reader 3:4 End execute (0 secs)
+2026-10-08 10:34:53,497 : ERROR : Thread-16873 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-08 10:34:57,080 : WARN  : comm-pool-thread-6 :  : Node : XPath : 3:3 : XML column "XML" is not present in the input table
+2026-10-08 10:34:57,113 : ERROR : Thread-17093 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-08 10:36:31,153 : INFO  : KNIME-Worker-1-GET Request 3:5 :  : RestNodeModel : GET Request : 3:5 : The KNIME-wide proxy settings are activated but none were specified. Defaulting to using no proxy.
+2026-10-08 10:36:31,159 : INFO  : KNIME-Worker-1-GET Request 3:5 :  : AbstractRequestExecutor : GET Request : 3:5 : Limiting concurrent REST Client node requests to 30 (default value, system property "org.knime.rest.maxConcurrentRequests" not set)
+2026-10-08 10:36:31,656 : INFO  : KNIME-Worker-1-GET Request 3:5 :  : LocalNodeExecutionJob : GET Request : 3:5 : GET Request 3:5 End execute (0 secs)
+2026-10-08 10:36:48,527 : WARN  : comm-pool-thread-3 :  : Node : JSON Path : 3:6 : No JSON path was specified, please enter at least one expression!
+2026-10-08 10:37:07,481 : WARN  : main :  : Node : JSON Path : 3:6 : No JSON path was specified, please enter at least one expression!
+2026-10-08 10:37:45,161 : WARN  : main :  : Node : JSON Path : 3:6 : No JSON path was specified, please enter at least one expression!
+2026-10-08 10:38:01,636 : WARN  : main :  : Node : JSON Path : 3:6 : No JSON path was specified, please enter at least one expression!
+2026-10-08 10:38:02,654 : WARN  : main :  : Node : JSON Path : 3:6 : No JSON path was specified, please enter at least one expression!
+2026-10-08 10:39:42,410 : INFO  : KNIME-Worker-2-JSON Path 3:6 :  : LocalNodeExecutionJob : JSON Path : 3:6 : JSON Path 3:6 End execute (0 secs)
+2026-10-08 10:40:08,294 : INFO  : KNIME-Worker-3-Ungroup 3:7 :  : LocalNodeExecutionJob : Ungroup : 3:7 : Ungroup 3:7 End execute (0 secs)
+2026-10-08 10:42:48,955 : INFO  : KNIME-Worker-4-Row Filter 3:8 :  : LocalNodeExecutionJob : Row Filter : 3:8 : Row Filter 3:8 End execute (0 secs)
+2026-10-08 10:45:35,100 : INFO  : KNIME-Worker-6-Duplicate Row Filter 3:9 :  : LocalNodeExecutionJob : Duplicate Row Filter : 3:9 : Duplicate Row Filter 3:9 End execute (0 secs)
+2026-10-08 10:48:21,909 : INFO  : KNIME-Worker-7-Duplicate Row Filter 3:9 :  : LocalNodeExecutionJob : Duplicate Row Filter : 3:9 : Duplicate Row Filter 3:9 End execute (0 secs)
+2026-10-08 10:48:31,653 : INFO  : KNIME-Worker-8-Duplicate Row Filter 3:9 :  : LocalNodeExecutionJob : Duplicate Row Filter : 3:9 : Duplicate Row Filter 3:9 End execute (0 secs)
+2026-10-08 10:48:35,072 : INFO  : KNIME-Worker-7-Duplicate Row Filter 3:9 :  : LocalNodeExecutionJob : Duplicate Row Filter : 3:9 : Duplicate Row Filter 3:9 End execute (0 secs)
+2026-10-08 10:48:59,272 : INFO  : KNIME-Worker-8-Duplicate Row Filter 3:9 :  : LocalNodeExecutionJob : Duplicate Row Filter : 3:9 : Duplicate Row Filter 3:9 End execute (0 secs)
+2026-10-08 10:49:28,207 : INFO  : KNIME-Worker-7-Duplicate Row Filter 3:9 :  : LocalNodeExecutionJob : Duplicate Row Filter : 3:9 : Duplicate Row Filter 3:9 End execute (0 secs)
+2026-10-08 10:51:49,342 : INFO  : KNIME-Worker-7-Missing Value 3:10 :  : PMMLPortObject : Missing Value : 3:10 : No mining schema found.
+2026-10-08 10:51:49,343 : INFO  : KNIME-Worker-7-Missing Value 3:10 :  : LocalNodeExecutionJob : Missing Value : 3:10 : Missing Value 3:10 End execute (0 secs)
+2026-10-08 10:52:42,712 : ERROR : Thread-39597 :  : KnimeBrowserView :  :  : Problem loading UI resources at 'https://org.knime.ui.java/images/Versioning-history-illustration-product-hint.png'. See log for details.
+java.lang.NullPointerException: Cannot invoke "java.net.URL.openStream()" because the return value of "org.eclipse.core.runtime.FileLocator.toFileURL(java.net.URL)" is null
+	at org.knime.ui.java.browser.lifecycle.Create.lambda$4(Create.java:187)
+	at org.knime.js.cef.middleware.CEFMiddlewareService.lambda$1(CEFMiddlewareService.java:180)
+	at com.equo.middleware.ee.provider.handler.DelegatingSchemeHandler.getResponseData(DelegatingSchemeHandler.java:61)
+	at com.equo.chromium.swt.internal.spi.DelegatingCefResourceHandler.getResponseHeaders(DelegatingCefResourceHandler.java:57)
+2026-10-08 10:53:51,075 : INFO  : KNIME-Worker-10-XPath 3:3 :  : LocalNodeExecutionJob : XPath : 3:3 : XPath 3:3 End execute (0 secs)
+2026-10-08 10:53:51,107 : ERROR : Thread-41812 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-08 10:53:51,122 : INFO  : KNIME-Worker-7-Joiner 3:11 :  : LocalNodeExecutionJob : Joiner : 3:11 : Joiner 3:11 End execute (0 secs)
+2026-10-08 10:55:07,134 : WARN  : comm-pool-thread-20 :  : Node : Math Formula : 3:12 : No configuration available
+2026-10-08 10:55:33,541 : INFO  : KNIME-Worker-11-Math Formula 3:12 :  : LocalNodeExecutionJob : Math Formula : 3:12 : Math Formula 3:12 End execute (0 secs)
+2026-10-08 10:56:57,890 : INFO  : KNIME-Worker-12-XPath 3:3 :  : LocalNodeExecutionJob : XPath : 3:3 : XPath 3:3 End execute (0 secs)
+2026-10-08 10:56:57,896 : INFO  : KNIME-Worker-11-Joiner 3:11 :  : LocalNodeExecutionJob : Joiner : 3:11 : Joiner 3:11 End execute (0 secs)
+2026-10-08 10:56:57,898 : INFO  : KNIME-Worker-12-Math Formula 3:12 :  : LocalNodeExecutionJob : Math Formula : 3:12 : Math Formula 3:12 End execute (0 secs)
+2026-10-08 10:57:49,489 : WARN  : comm-pool-thread-21 :  : Node : Math Formula : 3:15 : No configuration available
+2026-10-08 10:58:16,921 : INFO  : KNIME-Worker-11-Math Formula 3:15 :  : LocalNodeExecutionJob : Math Formula : 3:15 : Math Formula 3:15 End execute (0 secs)
+2026-10-08 10:58:57,976 : WARN  : comm-pool-thread-22 :  : Node : Math Formula : 3:16 : No configuration available
+2026-10-08 10:59:02,597 : WARN  : comm-pool-thread-22 :  : Node : Math Formula : 3:16 : No configuration available
+2026-10-08 10:59:17,048 : INFO  : KNIME-Worker-13-Math Formula 3:15 :  : LocalNodeExecutionJob : Math Formula : 3:15 : Math Formula 3:15 End execute (0 secs)
+2026-10-08 10:59:17,050 : INFO  : KNIME-Worker-11-Math Formula 3:16 :  : LocalNodeExecutionJob : Math Formula : 3:16 : Math Formula 3:16 End execute (0 secs)
+2026-10-08 11:00:26,316 : WARN  : comm-pool-thread-23 :  : Node : PostgreSQL Connector : 3:17 : Database host is not defined.
+2026-10-08 11:01:29,094 : INFO  : KNIME-Database-Connection-Creator-1 :  : UrlDBConnectionController : PostgreSQL Connector : 3:17 : Could not create connection to database using URL: jdbc:postgresql://localhost:5432/isi_postgres and parameters: [password, tcpKeepAlive, user]. Exception: FATAL: password authentication failed for user "postgres"
+2026-10-08 11:01:29,096 : ERROR : KNIME-Worker-14-PostgreSQL Connector 3:17 :  : Node : PostgreSQL Connector : 3:17 : Execute failed: FATAL: password authentication failed for user "postgres"
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:835)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:307)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:365)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:52)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:290)
+	at org.postgresql.Driver.makeConnection(Driver.java:448)
+	at org.postgresql.Driver.connect(Driver.java:298)
+	at org.knime.database.connection.UrlDBConnectionController$ControlledDriver.connect(UrlDBConnectionController.java:104)
+	at org.knime.database.connection.UrlDBConnectionController.connect(UrlDBConnectionController.java:369)
+	at org.knime.database.connection.UserDBConnectionController.connect(UserDBConnectionController.java:307)
+	at org.knime.database.connection.UrlDBConnectionController.createConnection(UrlDBConnectionController.java:349)
+	at org.knime.database.connection.AbstractConnectionProvider.createConnection(AbstractConnectionProvider.java:104)
+	at org.knime.database.connection.impl.DBConnectionManager.lambda$4(DBConnectionManager.java:595)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2026-10-08 11:02:43,965 : INFO  : KNIME-Worker-15-PostgreSQL Connector 3:17 :  : LocalNodeExecutionJob : PostgreSQL Connector : 3:17 : PostgreSQL Connector 3:17 End execute (0 secs)
+2026-10-08 11:04:09,486 : WARN  : comm-pool-thread-24 :  : Node : DB Writer : 3:18 : The table name must not be blank.
+2026-10-08 11:05:00,049 : ERROR : Thread-55387 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-08 11:05:00,407 : INFO  : KNIME-Worker-16-DB Writer 3:18 :  : LocalNodeExecutionJob : DB Writer : 3:18 : DB Writer 3:18 End execute (0 secs)
+2026-10-08 11:30:08,251 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x0000026f3e42dc58 :  : FileUtil :  :  : Deleting 1 temporary files.

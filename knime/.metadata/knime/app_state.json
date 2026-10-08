@@ -1,0 +1,22 @@
+{
+  "version" : "5.12.0.v202606180846",
+  "projects" : [ {
+    "name" : "Pipeline_Auditoria_Frota",
+    "active" : true,
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "relativePath" : "Pipeline_Auditoria_Frota"
+    }
+  } ],
+  "mostRecentlyUsedProjects" : [ {
+    "name" : "Pipeline_Auditoria_Frota",
+    "timeUsed" : "2026-10-08T10:24:49.4505168+01:00",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "Pipeline_Auditoria_Frota"
+    }
+  } ]
+}

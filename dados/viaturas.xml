@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<frota>
+    <viatura>
+        <matricula>AA-10-BB</matricula>
+        <marca>BMW</marca>
+        <modelo>320d</modelo>
+        <combustivel>Gasoleo</combustivel>
+        <consumo_fabrica>5.0</consumo_fabrica>
+    </viatura>
+    <viatura>
+        <matricula>25-XY-88</matricula>
+        <marca>Peugeot</marca>
+        <modelo>Partner</modelo>
+        <combustivel>Gasoleo</combustivel>
+        <consumo_fabrica>5.6</consumo_fabrica>
+    </viatura>
+    <viatura>
+        <matricula>99-ZZ-11</matricula>
+        <marca>Mercedes-Benz</marca>
+        <modelo>Classe A 180d</modelo>
+        <combustivel>Gasoleo</combustivel>
+        <consumo_fabrica>4.8</consumo_fabrica>
+    </viatura>
+    <viatura>
+        <matricula>AB-12-CD</matricula>
+        <marca>BMW</marca>
+        <modelo>330e</modelo>
+        <combustivel>Hibrido</combustivel>
+        <consumo_fabrica>2.1</consumo_fabrica>
+    </viatura>
+    <viatura>
+        <matricula>33-44-EF</matricula>
+        <marca>Peugeot</marca>
+        <modelo>208</modelo>
+        <combustivel>Gasolina</combustivel>
+        <consumo_fabrica>5.4</consumo_fabrica>
+    </viatura>
+    <viatura>
+        <matricula>77-GH-99</matricula>
+        <marca>Mercedes-Benz</marca>
+        <modelo>C 220d</modelo>
+        <combustivel>Gasoleo</combustivel>
+        <consumo_fabrica>5.2</consumo_fabrica>
+    </viatura>
+</frota>
