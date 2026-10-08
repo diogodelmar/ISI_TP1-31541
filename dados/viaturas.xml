@@ -25,7 +25,8 @@
         <matricula>AB-12-CD</matricula>
         <marca>BMW</marca>
         <modelo>330e</modelo>
-        <combustivel>Hibrido</combustivel>
+        <combustivel>Gasolina</combustivel>
+        <tipo_motor>Hibrido</tipo_motor>
         <consumo_fabrica>2.1</consumo_fabrica>
     </viatura>
     <viatura>

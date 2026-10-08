@@ -1,2 +1,3 @@
-2026/10/08-10:23:45.243 6bbc Creating DB C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Sync Data\LevelDB since it was missing.
-2026/10/08-10:23:45.302 6bbc Reusing MANIFEST C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Sync Data\LevelDB/MANIFEST-000001
+2026/10/08-11:53:19.569 6c64 Reusing MANIFEST C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Sync Data\LevelDB/MANIFEST-000001
+2026/10/08-11:53:19.571 6c64 Recovering log #3
+2026/10/08-11:53:19.574 6c64 Reusing old log C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\.plugins\com.equo.chromium\cefcache\Default\Sync Data\LevelDB/000003.log 

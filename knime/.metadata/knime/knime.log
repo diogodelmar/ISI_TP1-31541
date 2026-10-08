@@ -212,3 +212,94 @@ org.postgresql.util.PSQLException: FATAL: password authentication failed for use
       [object Object] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
 2026-10-08 11:05:00,407 : INFO  : KNIME-Worker-16-DB Writer 3:18 :  : LocalNodeExecutionJob : DB Writer : 3:18 : DB Writer 3:18 End execute (0 secs)
 2026-10-08 11:30:08,251 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x0000026f3e42dc58 :  : FileUtil :  :  : Deleting 1 temporary files.
+2026-10-08 11:53:15,940 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-08 11:53:15,941 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-08 11:53:15,941 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.12.0.v202606180846 (Build June 15, 2026)       #
+2026-10-08 11:53:15,942 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-10-08 11:53:15,942 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-08 11:53:15,942 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-08 11:53:15,942 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-08 11:53:15,942 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-10-08 11:53:15,942 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-10-08 11:53:15,942 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-10-08 11:53:15,942 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-08 11:53:15,942 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-08 11:53:15,942 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-10-08 11:53:15,942 : INFO  : main :  : NodeLogger :  :  : # C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\knime.log
+2026-10-08 11:53:15,942 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-10-08 11:53:15,955 : INFO  : main :  : NodeLogger :  :  : # logging date=quinta out. 08 11:53:15 WEST 2026
+2026-10-08 11:53:15,955 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-10-08 11:53:15,955 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-10-08 11:53:15,955 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-10-08 11:53:15,955 : INFO  : main :  : NodeLogger :  :  : # os.name=Windows 11
+2026-10-08 11:53:15,955 : INFO  : main :  : NodeLogger :  :  : # os.arch=amd64
+2026-10-08 11:53:15,955 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=12
+2026-10-08 11:53:15,955 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-10-08 11:53:15,966 : INFO  : main :  : NodeLogger :  :  : # host=I1600-dgoncalves
+2026-10-08 11:53:15,968 : INFO  : main :  : NodeLogger :  :  : # username=dgoncalves
+2026-10-08 11:53:15,968 : INFO  : main :  : NodeLogger :  :  : # max mem=8028MB
+2026-10-08 11:53:15,969 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-10-08 11:53:15,974 : INFO  : main :  : NodeLogger :  :  : # KNID=11-3d420a1e690a4c43-01-2072bf4b4b9c3863
+2026-10-08 11:53:15,974 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-08 11:53:13,085 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-10-08 11:53:18,368 : INFO  : main :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_database_drivers.txt' does not exist.
+2026-10-08 11:53:18,368 : INFO  : main :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_database_urls.txt' does not exist.
+2026-10-08 11:53:20,247 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_string2date-formats.txt' does not exist.
+2026-10-08 11:53:20,252 : INFO  : Node Repository Initializer :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-08 11:53:20,797 : INFO  : main :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-10-08 11:53:20,797 : INFO  : main :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-10-08 11:53:21,416 : INFO  : main :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_org.knime.kerberos.name.txt' does not exist.
+2026-10-08 11:53:21,925 : INFO  : Thread-171 :  : KnimeBrowserView :  :  : %cinfo%c Injecting global logger 
+      background: #00BCD4;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-08 11:53:21,966 : INFO  : Node Repository Initializer :  : GroupByNodeFactory :  :  : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-08 11:53:22,972 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_createFileNameHistoryKey.txt' does not exist.
+2026-10-08 11:53:23,358 : WARN  : ModalContext :  : Node : PostgreSQL Connector : 3:17 : DB Connection no longer available. Go to advanced settings to enable connection restoration.
+2026-10-08 11:53:24,019 : INFO  : Node Repository Initializer :  : Pivot2NodeFactory :  :  : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-08 11:53:24,293 : INFO  : Node Repository Initializer :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-08 11:53:25,860 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-08 11:53:25,883 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-08 11:53:25,884 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-08 11:53:26,090 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-08 11:53:26,090 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-08 11:53:26,094 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-08 11:53:26,100 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-08 11:53:26,107 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-08 11:53:26,108 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-08 11:55:25,232 : INFO  : KNIME-Worker-0-Row Filter 3:19 :  : RowFilterNodeModel : Row Filter : 3:19 : The result table at port 0 contains no rows
+2026-10-08 11:55:25,232 : WARN  : KNIME-Worker-0-Row Filter 3:19 :  : Node : Row Filter : 3:19 : Node created an empty data table.
+2026-10-08 11:55:25,235 : INFO  : KNIME-Worker-0-Row Filter 3:19 :  : LocalNodeExecutionJob : Row Filter : 3:19 : Row Filter 3:19 End execute (0 secs)
+2026-10-08 11:55:34,365 : INFO  : KNIME-Worker-0-Row Filter 3:19 :  : RowFilterNodeModel : Row Filter : 3:19 : The result table at port 0 contains no rows
+2026-10-08 11:55:34,365 : WARN  : KNIME-Worker-0-Row Filter 3:19 :  : Node : Row Filter : 3:19 : Node created an empty data table.
+2026-10-08 11:55:34,366 : INFO  : KNIME-Worker-0-Row Filter 3:19 :  : LocalNodeExecutionJob : Row Filter : 3:19 : Row Filter 3:19 End execute (0 secs)
+2026-10-08 11:55:36,897 : INFO  : KNIME-Worker-0-Row Filter 3:19 :  : LocalNodeExecutionJob : Row Filter : 3:19 : Row Filter 3:19 End execute (0 secs)
+2026-10-08 11:56:35,003 : INFO  : KNIME-Worker-0-Rule Engine 3:20 :  : LocalNodeExecutionJob : Rule Engine : 3:20 : Rule Engine 3:20 End execute (0 secs)
+2026-10-08 12:04:34,524 : WARN  : comm-pool-thread-6 :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-08 12:06:16,142 : WARN  : comm-pool-thread-8 :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-08 12:06:16,168 : INFO  : KNIME-Worker-2-Joiner 3:21 :  : LocalNodeExecutionJob : Joiner : 3:21 : Joiner 3:21 End execute (0 secs)
+2026-10-08 12:07:09,066 : WARN  : comm-pool-thread-8 :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-08 12:07:09,073 : INFO  : KNIME-Worker-2-Joiner 3:21 :  : LocalNodeExecutionJob : Joiner : 3:21 : Joiner 3:21 End execute (0 secs)
+2026-10-08 12:07:48,606 : INFO  : KNIME-Worker-2-Math Formula 3:12 :  : LocalNodeExecutionJob : Math Formula : 3:12 : Math Formula 3:12 End execute (0 secs)
+2026-10-08 12:07:48,608 : INFO  : KNIME-Worker-3-Math Formula 3:15 :  : LocalNodeExecutionJob : Math Formula : 3:15 : Math Formula 3:15 End execute (0 secs)
+2026-10-08 12:07:48,610 : INFO  : KNIME-Worker-2-Math Formula 3:16 :  : LocalNodeExecutionJob : Math Formula : 3:16 : Math Formula 3:16 End execute (0 secs)
+2026-10-08 12:07:48,612 : WARN  : KNIME-Worker-2-Math Formula 3:16 :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-08 12:08:49,230 : INFO  : KNIME-Worker-2-XML Reader 3:2 :  : LocalNodeExecutionJob : XML Reader : 3:2 : XML Reader 3:2 End execute (0 secs)
+2026-10-08 12:08:49,249 : WARN  : KNIME-Worker-2-XML Reader 3:2 :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-08 12:08:54,709 : INFO  : KNIME-Worker-3-XPath 3:3 :  : LocalNodeExecutionJob : XPath : 3:3 : XPath 3:3 End execute (0 secs)
+2026-10-08 12:08:54,735 : INFO  : KNIME-Worker-2-Joiner 3:11 :  : LocalNodeExecutionJob : Joiner : 3:11 : Joiner 3:11 End execute (0 secs)
+2026-10-08 12:08:54,739 : INFO  : KNIME-Worker-3-Joiner 3:21 :  : LocalNodeExecutionJob : Joiner : 3:21 : Joiner 3:21 End execute (0 secs)
+2026-10-08 12:09:10,003 : INFO  : KNIME-Worker-2-Math Formula 3:12 :  : LocalNodeExecutionJob : Math Formula : 3:12 : Math Formula 3:12 End execute (0 secs)
+2026-10-08 12:09:11,823 : INFO  : KNIME-Worker-3-Math Formula 3:15 :  : LocalNodeExecutionJob : Math Formula : 3:15 : Math Formula 3:15 End execute (0 secs)
+2026-10-08 12:09:14,570 : INFO  : KNIME-Worker-2-Math Formula 3:16 :  : LocalNodeExecutionJob : Math Formula : 3:16 : Math Formula 3:16 End execute (0 secs)
+2026-10-08 12:09:14,573 : WARN  : KNIME-Worker-2-Math Formula 3:16 :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-08 12:10:13,930 : INFO  : KNIME-Worker-3-PostgreSQL Connector 3:17 :  : LocalNodeExecutionJob : PostgreSQL Connector : 3:17 : PostgreSQL Connector 3:17 End execute (0 secs)
+2026-10-08 12:10:17,639 : INFO  : KNIME-Worker-2-DB Writer 3:18 :  : LocalNodeExecutionJob : DB Writer : 3:18 : DB Writer 3:18 End execute (0 secs)
+2026-10-08 12:13:35,335 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x000001fa43542a40 :  : FileUtil :  :  : Deleting 9 temporary files.
