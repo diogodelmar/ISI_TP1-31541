@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: isi_postgres
+    restart: always
+    environment:
+      POSTGRES_USER: isi_user
+      POSTGRES_PASSWORD: isi_password
+      POSTGRES_DB: isi_frota
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: isi_grafana
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    depends_on:
+      - postgres
+    volumes:
+      - grafanadata:/var/lib/grafana
+
+volumes:
+  pgdata:
+  grafanadata:
