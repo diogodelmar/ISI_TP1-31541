@@ -39,6 +39,21 @@
             <entry key="2" type="xstring" value="String"/>
         </config>
     </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Extrair combustível, preço e data da cotação"/>
+        <entry key="contentType" type="xstring" value="text/plain"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="0"/>
+        <entry key="y-coordinate" type="xint" value="0"/>
+        <entry key="width" type="xint" value="0"/>
+        <entry key="height" type="xint" value="0"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="0"/>
+        <entry key="defFontSize" type="xint" value="-1"/>
+        <entry key="annotation-version" type="xint" value="20230412"/>
+        <config key="styles"/>
+    </config>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
     <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.json.node.jsonpath.multi.JSONPathNodeFactory"/>
@@ -66,6 +81,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="e5c2ffba-1465-4f1e-ae75-c98dcf4cac7c"/>
+        <entry key="file_store_id" type="xstring" value="bd5a1f34-9d1d-4c03-bea7-2f107e5a5ca2"/>
     </config>
 </config>

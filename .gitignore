@@ -1,0 +1,7 @@
+.env
+.env.*
+!.env.example
+knime/.metadata/
+Thumbs.db
+~$*
+*.tmp
