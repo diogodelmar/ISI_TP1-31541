@@ -9,8 +9,12 @@
         <config key="columnSettings">
             <config key="0">
                 <config key="colNames">
-                    <entry key="array-size" type="xint" value="1"/>
+                    <entry key="array-size" type="xint" value="5"/>
                     <entry key="0" type="xstring" value="litros"/>
+                    <entry key="1" type="xstring" value="km_percorridos"/>
+                    <entry key="2" type="xstring" value="valor_total"/>
+                    <entry key="3" type="xstring" value="matricula"/>
+                    <entry key="4" type="xstring" value="data"/>
                 </config>
                 <config key="settings">
                     <entry key="factoryID" type="xstring" value="org.knime.base.node.preproc.pmml.missingval.pmml.RemoveRowMissingCellHandlerFactory"/>
@@ -63,7 +67,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 7, Cols: 7"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 8, Cols: 7"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
@@ -78,6 +82,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="1d2fd04e-56e5-4da2-bf79-6f5acdac57b8"/>
+        <entry key="file_store_id" type="xstring" value="3d7cce06-41aa-48cc-ab47-e8ef22353f05"/>
     </config>
 </config>

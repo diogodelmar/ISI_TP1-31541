@@ -303,3 +303,630 @@ org.postgresql.util.PSQLException: FATAL: password authentication failed for use
 2026-10-08 12:10:13,930 : INFO  : KNIME-Worker-3-PostgreSQL Connector 3:17 :  : LocalNodeExecutionJob : PostgreSQL Connector : 3:17 : PostgreSQL Connector 3:17 End execute (0 secs)
 2026-10-08 12:10:17,639 : INFO  : KNIME-Worker-2-DB Writer 3:18 :  : LocalNodeExecutionJob : DB Writer : 3:18 : DB Writer 3:18 End execute (0 secs)
 2026-10-08 12:13:35,335 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x000001fa43542a40 :  : FileUtil :  :  : Deleting 9 temporary files.
+2026-10-08 18:20:34,929 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-08 18:20:34,929 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-08 18:20:34,929 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.12.0.v202606180846 (Build June 15, 2026)       #
+2026-10-08 18:20:34,929 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-10-08 18:20:34,929 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-08 18:20:34,929 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-08 18:20:34,929 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-08 18:20:34,929 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-10-08 18:20:34,929 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-10-08 18:20:34,929 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-10-08 18:20:34,929 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-08 18:20:34,929 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-08 18:20:34,929 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-10-08 18:20:34,929 : INFO  : main :  : NodeLogger :  :  : # C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\knime.log
+2026-10-08 18:20:34,929 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-10-08 18:20:34,963 : INFO  : main :  : NodeLogger :  :  : # logging date=quinta out. 08 18:20:34 WEST 2026
+2026-10-08 18:20:34,963 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-10-08 18:20:34,963 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-10-08 18:20:34,963 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-10-08 18:20:34,965 : INFO  : main :  : NodeLogger :  :  : # os.name=Windows 11
+2026-10-08 18:20:34,965 : INFO  : main :  : NodeLogger :  :  : # os.arch=amd64
+2026-10-08 18:20:34,965 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=12
+2026-10-08 18:20:34,965 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-10-08 18:20:34,980 : INFO  : main :  : NodeLogger :  :  : # host=I1600-dgoncalves
+2026-10-08 18:20:35,024 : INFO  : main :  : NodeLogger :  :  : # username=dgoncalves
+2026-10-08 18:20:35,024 : INFO  : main :  : NodeLogger :  :  : # max mem=8028MB
+2026-10-08 18:20:35,024 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-10-08 18:20:35,073 : INFO  : main :  : NodeLogger :  :  : # KNID=11-3d420a1e690a4c43-01-2072bf4b4b9c3863
+2026-10-08 18:20:35,073 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-08 18:19:49,620 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-10-08 18:20:54,622 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_string2date-formats.txt' does not exist.
+2026-10-08 18:20:54,671 : INFO  : Node Repository Initializer :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-08 18:20:59,644 : INFO  : main :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_database_drivers.txt' does not exist.
+2026-10-08 18:20:59,644 : INFO  : main :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_database_urls.txt' does not exist.
+2026-10-08 18:21:22,598 : INFO  : main :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-10-08 18:21:22,600 : INFO  : main :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-10-08 18:21:28,413 : INFO  : Node Repository Initializer :  : Pivot2NodeFactory :  :  : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-08 18:21:28,576 : INFO  : Node Repository Initializer :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-08 18:21:30,408 : INFO  : Node Repository Initializer :  : GroupByNodeFactory :  :  : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-08 18:21:31,520 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_createFileNameHistoryKey.txt' does not exist.
+2026-10-08 18:21:33,499 : INFO  : main :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_org.knime.kerberos.name.txt' does not exist.
+2026-10-08 18:21:35,279 : INFO  : Thread-201 :  : KnimeBrowserView :  :  : %cinfo%c Injecting global logger 
+      background: #00BCD4;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-08 18:21:40,208 : WARN  : ModalContext :  : Node : PostgreSQL Connector : 3:17 : DB Connection no longer available. Go to advanced settings to enable connection restoration.
+2026-10-08 18:21:42,204 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-08 18:21:42,254 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-08 18:21:42,255 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-08 18:21:42,632 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-08 18:21:42,642 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-08 18:21:42,643 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-08 18:21:42,654 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-08 18:21:42,654 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-08 18:21:42,658 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-08 20:09:28,619 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x000001f70153d898 :  : FileUtil :  :  : Deleting 25 temporary files.
+2026-10-09 09:04:46,087 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-09 09:04:46,088 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-09 09:04:46,089 : INFO  : main :  : NodeLogger :  :  : # Welcome to KNIME Analytics Platform v5.12.0.v202606180846 (Build June 15, 2026)       #
+2026-10-09 09:04:46,089 : INFO  : main :  : NodeLogger :  :  : # Based on Eclipse, http://www.eclipse.org                                              #
+2026-10-09 09:04:46,089 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-09 09:04:46,089 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-09 09:04:46,089 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-09 09:04:46,089 : INFO  : main :  : NodeLogger :  :  : # Copyright by KNIME AG, Zurich, Switzerland and others.                                #
+2026-10-09 09:04:46,089 : INFO  : main :  : NodeLogger :  :  : # Website: http://www.knime.com                                                         #
+2026-10-09 09:04:46,089 : INFO  : main :  : NodeLogger :  :  : # E-mail: contact@knime.com                                                             #
+2026-10-09 09:04:46,089 : INFO  : main :  : NodeLogger :  :  : #                                                                                       #
+2026-10-09 09:04:46,089 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-09 09:04:46,089 : INFO  : main :  : NodeLogger :  :  : # For more details see the KNIME log file:                                              #
+2026-10-09 09:04:46,089 : INFO  : main :  : NodeLogger :  :  : # C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\knime.log
+2026-10-09 09:04:46,089 : INFO  : main :  : NodeLogger :  :  : #---------------------------------------------------------------------------------------#
+2026-10-09 09:04:46,105 : INFO  : main :  : NodeLogger :  :  : # logging date=sexta out. 09 09:04:46 WEST 2026
+2026-10-09 09:04:46,105 : INFO  : main :  : NodeLogger :  :  : # java.version=21.0.9
+2026-10-09 09:04:46,105 : INFO  : main :  : NodeLogger :  :  : # java.vm.version=21.0.9+10-LTS
+2026-10-09 09:04:46,105 : INFO  : main :  : NodeLogger :  :  : # java.vendor=Eclipse Adoptium
+2026-10-09 09:04:46,105 : INFO  : main :  : NodeLogger :  :  : # os.name=Windows 11
+2026-10-09 09:04:46,105 : INFO  : main :  : NodeLogger :  :  : # os.arch=amd64
+2026-10-09 09:04:46,105 : INFO  : main :  : NodeLogger :  :  : # number of CPUs=12
+2026-10-09 09:04:46,105 : INFO  : main :  : NodeLogger :  :  : # assertions=off
+2026-10-09 09:04:46,120 : INFO  : main :  : NodeLogger :  :  : # host=I1600-dgoncalves
+2026-10-09 09:04:46,142 : INFO  : main :  : NodeLogger :  :  : # username=dgoncalves
+2026-10-09 09:04:46,142 : INFO  : main :  : NodeLogger :  :  : # max mem=8028MB
+2026-10-09 09:04:46,143 : INFO  : main :  : NodeLogger :  :  : # application=org.knime.product.KNIME_APPLICATION
+2026-10-09 09:04:46,166 : INFO  : main :  : NodeLogger :  :  : # KNID=11-3d420a1e690a4c43-01-2072bf4b4b9c3863
+2026-10-09 09:04:46,166 : INFO  : main :  : NodeLogger :  :  : #########################################################################################
+2026-10-09 09:04:42,688 : INFO  : main :  : RegisterBouncyCastleProvider :  :  : Added BouncyCastleProvider to Java Security providers
+2026-10-09 09:04:51,920 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_string2date-formats.txt' does not exist.
+2026-10-09 09:04:51,992 : INFO  : Node Repository Initializer :  : MovingAggregationNodeFactory :  :  : Modern dialog for Moving Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-09 09:04:53,057 : INFO  : main :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_database_drivers.txt' does not exist.
+2026-10-09 09:04:53,057 : INFO  : main :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_database_urls.txt' does not exist.
+2026-10-09 09:05:11,137 : INFO  : main :  : ProcessWatchdog :  :  : KNIME Process Watchdog memory limit not configured
+2026-10-09 09:05:11,137 : INFO  : main :  : ProcessWatchdog :  :  : External process memory watchdog is disabled, because the memory limit is set to -1
+2026-10-09 09:05:11,908 : INFO  : Node Repository Initializer :  : ColumnAggregatorNodeFactory :  :  : Modern dialog for Column Aggregator node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-09 09:05:12,821 : INFO  : Node Repository Initializer :  : Pivot2NodeFactory :  :  : Modern dialog for Pivot node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-09 09:05:13,038 : INFO  : Node Repository Initializer :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_createFileNameHistoryKey.txt' does not exist.
+2026-10-09 09:05:13,684 : INFO  : Node Repository Initializer :  : GroupByNodeFactory :  :  : Modern dialog for GroupBy node can be enabled via system property "org.knime.base.node.preproc.groupby.dialog". Note: This property will be removed in a future version.
+
+2026-10-09 09:05:15,401 : INFO  : main :  : StringHistory :  :  : History file 'C:\IPCA\ISI\ISI_TP1-31541\knime\.metadata\knime\history_org.knime.kerberos.name.txt' does not exist.
+2026-10-09 09:05:16,322 : INFO  : Thread-217 :  : KnimeBrowserView :  :  : %cinfo%c Injecting global logger 
+      background: #00BCD4;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-09 09:05:19,620 : WARN  : ModalContext :  : Node : PostgreSQL Connector : 3:17 : DB Connection no longer available. Go to advanced settings to enable connection restoration.
+2026-10-09 09:05:20,231 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-09 09:05:20,247 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-09 09:05:20,248 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=mssqlserver, name=Microsoft SQL Server, description=null)
+2026-10-09 09:05:20,634 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-09 09:05:20,641 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-09 09:05:20,641 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=oracle, name=Oracle, description=null)
+2026-10-09 09:05:20,646 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-09 09:05:20,652 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-09 09:05:20,653 : INFO  : Node Repository Initializer :  : DBDriverRegistry :  :  : Could not find any driver for DBType: DBType(id=vertica, name=Vertica, description=Vertica Analytics Platform)
+2026-10-09 09:11:35,217 : WARN  : comm-pool-thread-2 :  : Node : GroupBy : 3:22 : No grouping column included. Aggregate complete table.
+2026-10-09 09:11:35,218 : WARN  : comm-pool-thread-2 :  : Node : GroupBy : 3:22 : No aggregation column defined
+2026-10-09 09:11:35,253 : WARN  : comm-pool-thread-2 :  : Node : GroupBy : 3:22 : Please select at least one group or aggregation column
+2026-10-09 09:13:00,565 : WARN  : main :  : Node : CSV Writer : 3:23 : Please specify a file
+2026-10-09 09:13:01,222 : WARN  : main :  : Node : CSV Writer : 3:23 : Please specify a file
+2026-10-09 09:13:02,094 : INFO  : KNIME-Worker-1-GroupBy 3:22 :  : LocalNodeExecutionJob : GroupBy : 3:22 : GroupBy 3:22 End execute (0 secs)
+2026-10-09 09:13:02,096 : WARN  : KNIME-Worker-1-GroupBy 3:22 :  : Node : CSV Writer : 3:23 : Please specify a file
+2026-10-09 09:15:28,590 : INFO  : KNIME-Worker-2-CSV Writer 3:23 :  : LocalNodeExecutionJob : CSV Writer : 3:23 : CSV Writer 3:23 End execute (0 secs)
+2026-10-09 09:16:56,680 : WARN  : comm-pool-thread-6 :  : Node : JSON Writer : 3:25 : No applicable JSON column available
+2026-10-09 09:16:57,625 : INFO  : comm-pool-thread-6 :  : NodeRecommendationManager :  :  : Loading node recommendations from <org.knime.core.ui.workflowcoach.data.PrefsTripleProvider>
+2026-10-09 09:16:57,625 : INFO  : comm-pool-thread-6 :  : NodeRecommendationManager :  :  : Loading node recommendations from <org.knime.workbench.workflowcoach.data.CommunityTripleProvider>
+2026-10-09 09:16:57,808 : INFO  : comm-pool-thread-6 :  : NodeRecommendationManager :  :  : Loading node recommendations from <org.knime.workbench.workflowcoach.local.data.WorkspaceTripleProvider>
+2026-10-09 09:16:57,808 : INFO  : comm-pool-thread-6 :  : NodeRecommendationManager :  :  : Successfully (re-)loaded all node recommendations available
+2026-10-09 09:17:00,706 : WARN  : comm-pool-thread-7 :  : Node : JSON Writer : 3:25 : Auto-guessed column 'JSON' as JSON input column
+2026-10-09 09:17:00,707 : WARN  : comm-pool-thread-7 :  : Node : JSON Writer : 3:25 : Please specify a folder
+2026-10-09 09:23:36,660 : WARN  : comm-pool-thread-6 :  : Node : JSON Writer : 3:25 : Please specify a folder
+2026-10-09 09:23:36,676 : INFO  : KNIME-Worker-3-Table to JSON 3:24 :  : LocalNodeExecutionJob : Table to JSON : 3:24 : Table to JSON 3:24 End execute (0 secs)
+2026-10-09 09:23:36,676 : WARN  : KNIME-Worker-3-Table to JSON 3:24 :  : Node : JSON Writer : 3:25 : Please specify a folder
+2026-10-09 09:24:04,851 : WARN  : comm-pool-thread-9 :  : Node : JSON Writer : 3:25 : The selected JSON column '' is not part of the input
+2026-10-09 09:24:26,098 : WARN  : comm-pool-thread-9 :  : Node : JSON Writer : 3:25 : The selected JSON column '' is not part of the input
+2026-10-09 09:24:54,078 : INFO  : KNIME-Worker-3-JSON Writer 3:25 :  : LocalNodeExecutionJob : JSON Writer : 3:25 : JSON Writer 3:25 End execute (0 secs)
+2026-10-09 09:25:41,307 : INFO  : KNIME-Worker-3-JSON Writer 3:25 :  : LocalNodeExecutionJob : JSON Writer : 3:25 : JSON Writer 3:25 End execute (0 secs)
+2026-10-09 09:27:01,908 : WARN  : comm-pool-thread-11 :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-09 09:27:02,042 : ERROR : Thread-21700 :  : KnimeBrowserView :  :  : %cerror%c UIExtension Lifecycle :: failed to initialize 
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 55)
+2026-10-09 09:27:02,096 : INFO  : KNIME-Worker-4-Missing Value 3:10 :  : PMMLPortObject : Missing Value : 3:10 : No mining schema found.
+2026-10-09 09:27:02,097 : INFO  : KNIME-Worker-4-Missing Value 3:10 :  : LocalNodeExecutionJob : Missing Value : 3:10 : Missing Value 3:10 End execute (0 secs)
+2026-10-09 09:27:26,656 : WARN  : comm-pool-thread-11 :  : Node : Joiner : 3:21 : The join column names [combustivel] do not exist in the target table, which only specifies the column names [id_abastecimento, data, matricula, km_percorridos, litros, valor_total, id_posto]
+2026-10-09 09:27:56,628 : WARN  : main :  : Node : Joiner : 3:21 : The join column names [combustivel] do not exist in the target table, which only specifies the column names [id_abastecimento, data, matricula, km_percorridos, litros, valor_total, id_posto]
+2026-10-09 09:27:57,264 : WARN  : main :  : Node : Joiner : 3:21 : The join column names [combustivel] do not exist in the target table, which only specifies the column names [id_abastecimento, data, matricula, km_percorridos, litros, valor_total, id_posto]
+2026-10-09 09:27:58,033 : INFO  : KNIME-Worker-5-Rule-based Row Filter 3:26 :  : LocalNodeExecutionJob : Rule-based Row Filter : 3:26 : Rule-based Row Filter 3:26 End execute (0 secs)
+2026-10-09 09:27:58,036 : WARN  : KNIME-Worker-5-Rule-based Row Filter 3:26 :  : Node : Joiner : 3:21 : The join column names [combustivel] do not exist in the target table, which only specifies the column names [id_abastecimento, data, matricula, km_percorridos, litros, valor_total, id_posto]
+2026-10-09 09:28:30,005 : WARN  : comm-pool-thread-11 :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-09 09:29:03,387 : WARN  : comm-pool-thread-13 :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-09 09:29:19,078 : WARN  : main :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-09 09:29:19,352 : WARN  : main :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-09 09:29:20,828 : INFO  : KNIME-Worker-7-Rule-based Row Filter 3:26 :  : LocalNodeExecutionJob : Rule-based Row Filter : 3:26 : Rule-based Row Filter 3:26 End execute (0 secs)
+2026-10-09 09:29:43,344 : WARN  : comm-pool-thread-13 :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-09 09:29:54,347 : WARN  : comm-pool-thread-13 :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-09 09:29:58,838 : WARN  : comm-pool-thread-13 :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-09 09:30:09,077 : INFO  : KNIME-Worker-8-Joiner 3:11 :  : LocalNodeExecutionJob : Joiner : 3:11 : Joiner 3:11 End execute (0 secs)
+2026-10-09 09:30:09,126 : INFO  : KNIME-Worker-9-Joiner 3:21 :  : LocalNodeExecutionJob : Joiner : 3:21 : Joiner 3:21 End execute (0 secs)
+2026-10-09 09:30:09,130 : INFO  : KNIME-Worker-10-Math Formula 3:12 :  : LocalNodeExecutionJob : Math Formula : 3:12 : Math Formula 3:12 End execute (0 secs)
+2026-10-09 09:30:09,133 : INFO  : KNIME-Worker-7-Math Formula 3:15 :  : LocalNodeExecutionJob : Math Formula : 3:15 : Math Formula 3:15 End execute (0 secs)
+2026-10-09 09:30:09,136 : INFO  : KNIME-Worker-8-Math Formula 3:16 :  : LocalNodeExecutionJob : Math Formula : 3:16 : Math Formula 3:16 End execute (0 secs)
+2026-10-09 09:30:09,138 : WARN  : KNIME-Worker-8-Math Formula 3:16 :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-09 09:30:09,144 : INFO  : KNIME-Worker-10-Table to JSON 3:24 :  : LocalNodeExecutionJob : Table to JSON : 3:24 : Table to JSON 3:24 End execute (0 secs)
+2026-10-09 09:30:09,145 : INFO  : KNIME-Worker-9-GroupBy 3:22 :  : LocalNodeExecutionJob : GroupBy : 3:22 : GroupBy 3:22 End execute (0 secs)
+2026-10-09 09:30:09,152 : INFO  : KNIME-Worker-7-JSON Writer 3:25 :  : LocalNodeExecutionJob : JSON Writer : 3:25 : JSON Writer 3:25 End execute (0 secs)
+2026-10-09 09:30:09,152 : ERROR : KNIME-Worker-8-CSV Writer 3:23 :  : Node : CSV Writer : 3:23 : Execute failed: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+java.nio.file.FileSystemException: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystemProvider.newByteChannel(LocalFileSystemProvider.java:148)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.newOutputStream(FSFiles.java:146)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:215)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.writeToFile(CSVWriter2NodeModel.java:168)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:148)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:1)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-09 09:32:04,263 : WARN  : comm-pool-thread-14 :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-09 09:32:10,834 : WARN  : main :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-09 09:32:11,158 : WARN  : main :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-09 09:32:11,748 : INFO  : KNIME-Worker-11-Rule-based Row Filter 3:27 :  : LocalNodeExecutionJob : Rule-based Row Filter : 3:27 : Rule-based Row Filter 3:27 End execute (0 secs)
+2026-10-09 09:32:24,339 : INFO  : KNIME-Worker-12-Math Formula 3:12 :  : LocalNodeExecutionJob : Math Formula : 3:12 : Math Formula 3:12 End execute (0 secs)
+2026-10-09 09:32:25,301 : INFO  : KNIME-Worker-13-Math Formula 3:15 :  : LocalNodeExecutionJob : Math Formula : 3:15 : Math Formula 3:15 End execute (0 secs)
+2026-10-09 09:32:26,251 : INFO  : KNIME-Worker-14-Math Formula 3:16 :  : LocalNodeExecutionJob : Math Formula : 3:16 : Math Formula 3:16 End execute (0 secs)
+2026-10-09 09:32:26,252 : WARN  : KNIME-Worker-14-Math Formula 3:16 :  : Node : DB Writer : 3:18 : Database connection does not exist. Please reset the corresponding connector node.
+2026-10-09 09:32:42,497 : INFO  : KNIME-Worker-11-GroupBy 3:22 :  : LocalNodeExecutionJob : GroupBy : 3:22 : GroupBy 3:22 End execute (0 secs)
+2026-10-09 09:32:45,959 : ERROR : KNIME-Worker-12-CSV Writer 3:23 :  : Node : CSV Writer : 3:23 : Execute failed: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+java.nio.file.FileSystemException: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystemProvider.newByteChannel(LocalFileSystemProvider.java:148)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.newOutputStream(FSFiles.java:146)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:215)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.writeToFile(CSVWriter2NodeModel.java:168)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:148)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:1)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-09 09:32:50,741 : INFO  : KNIME-Worker-13-Table to JSON 3:24 :  : LocalNodeExecutionJob : Table to JSON : 3:24 : Table to JSON 3:24 End execute (0 secs)
+2026-10-09 09:32:50,744 : INFO  : KNIME-Worker-14-JSON Writer 3:25 :  : LocalNodeExecutionJob : JSON Writer : 3:25 : JSON Writer 3:25 End execute (0 secs)
+2026-10-09 09:32:52,989 : ERROR : KNIME-Worker-11-CSV Writer 3:23 :  : Node : CSV Writer : 3:23 : Execute failed: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+java.nio.file.FileSystemException: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystemProvider.newByteChannel(LocalFileSystemProvider.java:148)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.newOutputStream(FSFiles.java:146)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:215)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.writeToFile(CSVWriter2NodeModel.java:168)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:148)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:1)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-09 09:32:53,678 : ERROR : KNIME-Worker-12-CSV Writer 3:23 :  : Node : CSV Writer : 3:23 : Execute failed: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+java.nio.file.FileSystemException: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystemProvider.newByteChannel(LocalFileSystemProvider.java:148)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.newOutputStream(FSFiles.java:146)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:215)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.writeToFile(CSVWriter2NodeModel.java:168)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:148)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:1)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-09 09:32:54,060 : ERROR : KNIME-Worker-13-CSV Writer 3:23 :  : Node : CSV Writer : 3:23 : Execute failed: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+java.nio.file.FileSystemException: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystemProvider.newByteChannel(LocalFileSystemProvider.java:148)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.newOutputStream(FSFiles.java:146)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:215)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.writeToFile(CSVWriter2NodeModel.java:168)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:148)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:1)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-09 09:32:56,657 : ERROR : KNIME-Worker-14-CSV Writer 3:23 :  : Node : CSV Writer : 3:23 : Execute failed: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+java.nio.file.FileSystemException: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystemProvider.newByteChannel(LocalFileSystemProvider.java:148)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.newOutputStream(FSFiles.java:146)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:215)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.writeToFile(CSVWriter2NodeModel.java:168)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:148)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:1)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-09 09:32:58,179 : ERROR : KNIME-Worker-11-CSV Writer 3:23 :  : Node : CSV Writer : 3:23 : Execute failed: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+java.nio.file.FileSystemException: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystemProvider.newByteChannel(LocalFileSystemProvider.java:148)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.newOutputStream(FSFiles.java:146)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:215)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.writeToFile(CSVWriter2NodeModel.java:168)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:148)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:1)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-09 09:32:59,058 : ERROR : KNIME-Worker-12-CSV Writer 3:23 :  : Node : CSV Writer : 3:23 : Execute failed: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+java.nio.file.FileSystemException: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystemProvider.newByteChannel(LocalFileSystemProvider.java:148)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.newOutputStream(FSFiles.java:146)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:215)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.writeToFile(CSVWriter2NodeModel.java:168)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:148)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:1)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-09 09:32:59,499 : ERROR : KNIME-Worker-13-CSV Writer 3:23 :  : Node : CSV Writer : 3:23 : Execute failed: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+java.nio.file.FileSystemException: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystemProvider.newByteChannel(LocalFileSystemProvider.java:148)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.newOutputStream(FSFiles.java:146)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:215)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.writeToFile(CSVWriter2NodeModel.java:168)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:148)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:1)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-09 09:33:00,196 : ERROR : KNIME-Worker-14-CSV Writer 3:23 :  : Node : CSV Writer : 3:23 : Execute failed: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+java.nio.file.FileSystemException: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystemProvider.newByteChannel(LocalFileSystemProvider.java:148)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.newOutputStream(FSFiles.java:146)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:215)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.writeToFile(CSVWriter2NodeModel.java:168)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:148)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:1)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-09 09:33:09,859 : ERROR : KNIME-Worker-11-CSV Writer 3:23 :  : Node : CSV Writer : 3:23 : Execute failed: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+java.nio.file.FileSystemException: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystemProvider.newByteChannel(LocalFileSystemProvider.java:148)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.newOutputStream(FSFiles.java:146)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:215)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.writeToFile(CSVWriter2NodeModel.java:168)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:148)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:1)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-09 09:33:17,124 : ERROR : KNIME-Worker-12-CSV Writer 3:23 :  : Node : CSV Writer : 3:23 : Execute failed: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+java.nio.file.FileSystemException: C:\IPCA\ISI\ISI_TP1-31541\dados\export\resumo_frota.csv: O processo não pode aceder ao ficheiro porque este está a ser utilizado por outro processo
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(Unknown Source)
+	at org.knime.filehandling.core.fs.local.fs.LocalFileSystemProvider.newByteChannel(LocalFileSystemProvider.java:148)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(Unknown Source)
+	at java.base/java.nio.file.Files.newOutputStream(Unknown Source)
+	at org.knime.filehandling.core.connections.FSFiles.newOutputStream(FSFiles.java:146)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.createOutputStream(CSVWriter2NodeModel.java:215)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.writeToFile(CSVWriter2NodeModel.java:168)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:148)
+	at org.knime.base.node.io.filehandling.csv.writer.CSVWriter2NodeModel.execute(CSVWriter2NodeModel.java:1)
+	at org.knime.core.node.NodeModel.executeModel(NodeModel.java:605)
+	at org.knime.core.node.Node.invokeFullyNodeModelExecute(Node.java:1341)
+	at org.knime.core.node.Node.execute(Node.java:1039)
+	at org.knime.core.node.workflow.NativeNodeContainer.performExecuteNode(NativeNodeContainer.java:618)
+	at org.knime.core.node.exec.LocalNodeExecutionJob.mainExecute(LocalNodeExecutionJob.java:98)
+	at org.knime.core.node.workflow.NodeExecutionJob.internalRun(NodeExecutionJob.java:202)
+	at org.knime.core.node.workflow.NodeExecutionJob.run(NodeExecutionJob.java:121)
+	at org.knime.core.util.ThreadUtils$RunnableWithContextImpl.runWithContext(ThreadUtils.java:369)
+	at org.knime.core.util.ThreadUtils$RunnableWithContext.run(ThreadUtils.java:223)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at org.knime.core.util.ThreadPool$MyFuture.run(ThreadPool.java:143)
+	at org.knime.core.util.ThreadPool$Worker.run(ThreadPool.java:277)
+2026-10-09 09:33:47,078 : INFO  : KNIME-Worker-13-CSV Writer 3:23 :  : LocalNodeExecutionJob : CSV Writer : 3:23 : CSV Writer 3:23 End execute (0 secs)
+2026-10-09 09:34:38,804 : INFO  : KNIME-Worker-15-PostgreSQL Connector 3:17 :  : LocalNodeExecutionJob : PostgreSQL Connector : 3:17 : PostgreSQL Connector 3:17 End execute (0 secs)
+2026-10-09 09:34:41,235 : INFO  : KNIME-Worker-16-DB Writer 3:18 :  : LocalNodeExecutionJob : DB Writer : 3:18 : DB Writer 3:18 End execute (0 secs)
+2026-10-09 09:38:45,114 : INFO  : KNIME-Worker-17-Duplicate Row Filter 3:9 :  : LocalNodeExecutionJob : Duplicate Row Filter : 3:9 : Duplicate Row Filter 3:9 End execute (0 secs)
+2026-10-09 09:38:52,672 : INFO  : KNIME-Worker-18-Missing Value 3:10 :  : PMMLPortObject : Missing Value : 3:10 : No mining schema found.
+2026-10-09 09:38:52,672 : INFO  : KNIME-Worker-18-Missing Value 3:10 :  : LocalNodeExecutionJob : Missing Value : 3:10 : Missing Value 3:10 End execute (0 secs)
+2026-10-09 09:38:52,674 : INFO  : KNIME-Worker-19-Rule-based Row Filter 3:26 :  : LocalNodeExecutionJob : Rule-based Row Filter : 3:26 : Rule-based Row Filter 3:26 End execute (0 secs)
+2026-10-09 09:38:52,678 : INFO  : KNIME-Worker-20-Joiner 3:11 :  : LocalNodeExecutionJob : Joiner : 3:11 : Joiner 3:11 End execute (0 secs)
+2026-10-09 09:38:52,684 : INFO  : KNIME-Worker-17-Joiner 3:21 :  : LocalNodeExecutionJob : Joiner : 3:21 : Joiner 3:21 End execute (0 secs)
+2026-10-09 09:38:52,688 : INFO  : KNIME-Worker-18-Rule-based Row Filter 3:27 :  : LocalNodeExecutionJob : Rule-based Row Filter : 3:27 : Rule-based Row Filter 3:27 End execute (0 secs)
+2026-10-09 09:38:52,690 : INFO  : KNIME-Worker-19-Math Formula 3:12 :  : LocalNodeExecutionJob : Math Formula : 3:12 : Math Formula 3:12 End execute (0 secs)
+2026-10-09 09:38:52,693 : INFO  : KNIME-Worker-20-Math Formula 3:15 :  : LocalNodeExecutionJob : Math Formula : 3:15 : Math Formula 3:15 End execute (0 secs)
+2026-10-09 09:38:52,695 : INFO  : KNIME-Worker-17-Math Formula 3:16 :  : LocalNodeExecutionJob : Math Formula : 3:16 : Math Formula 3:16 End execute (0 secs)
+2026-10-09 09:38:52,703 : INFO  : KNIME-Worker-20-Table to JSON 3:24 :  : LocalNodeExecutionJob : Table to JSON : 3:24 : Table to JSON 3:24 End execute (0 secs)
+2026-10-09 09:38:52,705 : INFO  : KNIME-Worker-19-GroupBy 3:22 :  : LocalNodeExecutionJob : GroupBy : 3:22 : GroupBy 3:22 End execute (0 secs)
+2026-10-09 09:38:52,707 : INFO  : KNIME-Worker-17-JSON Writer 3:25 :  : LocalNodeExecutionJob : JSON Writer : 3:25 : JSON Writer 3:25 End execute (0 secs)
+2026-10-09 09:38:52,709 : INFO  : KNIME-Worker-20-CSV Writer 3:23 :  : LocalNodeExecutionJob : CSV Writer : 3:23 : CSV Writer 3:23 End execute (0 secs)
+2026-10-09 09:38:52,744 : INFO  : KNIME-Worker-18-DB Writer 3:18 :  : LocalNodeExecutionJob : DB Writer : 3:18 : DB Writer 3:18 End execute (0 secs)
+2026-10-09 09:44:49,580 : INFO  : KNIME-Worker-21-GET Request 3:5 :  : RestNodeModel : GET Request : 3:5 : The KNIME-wide proxy settings are activated but none were specified. Defaulting to using no proxy.
+2026-10-09 09:44:49,589 : INFO  : KNIME-Worker-24-PostgreSQL Connector 3:17 :  : LocalNodeExecutionJob : PostgreSQL Connector : 3:17 : PostgreSQL Connector 3:17 End execute (0 secs)
+2026-10-09 09:44:49,590 : INFO  : KNIME-Worker-21-GET Request 3:5 :  : AbstractRequestExecutor : GET Request : 3:5 : Limiting concurrent REST Client node requests to 30 (default value, system property "org.knime.rest.maxConcurrentRequests" not set)
+2026-10-09 09:44:49,638 : INFO  : KNIME-Worker-23-CSV Reader 3:4 :  : LocalNodeExecutionJob : CSV Reader : 3:4 : CSV Reader 3:4 End execute (0 secs)
+2026-10-09 09:44:49,649 : INFO  : KNIME-Worker-22-XML Reader 3:2 :  : LocalNodeExecutionJob : XML Reader : 3:2 : XML Reader 3:2 End execute (0 secs)
+2026-10-09 09:44:49,680 : INFO  : KNIME-Worker-23-XPath 3:3 :  : LocalNodeExecutionJob : XPath : 3:3 : XPath 3:3 End execute (0 secs)
+2026-10-09 09:44:49,735 : INFO  : KNIME-Worker-24-Row Filter 3:8 :  : LocalNodeExecutionJob : Row Filter : 3:8 : Row Filter 3:8 End execute (0 secs)
+2026-10-09 09:44:49,744 : INFO  : KNIME-Worker-22-Duplicate Row Filter 3:9 :  : LocalNodeExecutionJob : Duplicate Row Filter : 3:9 : Duplicate Row Filter 3:9 End execute (0 secs)
+2026-10-09 09:44:49,759 : INFO  : KNIME-Worker-23-Missing Value 3:10 :  : PMMLPortObject : Missing Value : 3:10 : No mining schema found.
+2026-10-09 09:44:49,759 : INFO  : KNIME-Worker-23-Missing Value 3:10 :  : LocalNodeExecutionJob : Missing Value : 3:10 : Missing Value 3:10 End execute (0 secs)
+2026-10-09 09:44:49,761 : INFO  : KNIME-Worker-24-Rule-based Row Filter 3:26 :  : LocalNodeExecutionJob : Rule-based Row Filter : 3:26 : Rule-based Row Filter 3:26 End execute (0 secs)
+2026-10-09 09:44:49,767 : INFO  : KNIME-Worker-22-Joiner 3:11 :  : LocalNodeExecutionJob : Joiner : 3:11 : Joiner 3:11 End execute (0 secs)
+2026-10-09 09:44:50,260 : INFO  : KNIME-Worker-21-GET Request 3:5 :  : LocalNodeExecutionJob : GET Request : 3:5 : GET Request 3:5 End execute (0 secs)
+2026-10-09 09:44:50,293 : INFO  : KNIME-Worker-23-JSON Path 3:6 :  : LocalNodeExecutionJob : JSON Path : 3:6 : JSON Path 3:6 End execute (0 secs)
+2026-10-09 09:44:50,295 : INFO  : KNIME-Worker-22-Ungroup 3:7 :  : LocalNodeExecutionJob : Ungroup : 3:7 : Ungroup 3:7 End execute (0 secs)
+2026-10-09 09:44:50,301 : INFO  : KNIME-Worker-21-Row Filter 3:19 :  : LocalNodeExecutionJob : Row Filter : 3:19 : Row Filter 3:19 End execute (0 secs)
+2026-10-09 09:44:50,305 : INFO  : KNIME-Worker-24-Rule Engine 3:20 :  : LocalNodeExecutionJob : Rule Engine : 3:20 : Rule Engine 3:20 End execute (0 secs)
+2026-10-09 09:44:50,307 : INFO  : KNIME-Worker-23-Joiner 3:21 :  : LocalNodeExecutionJob : Joiner : 3:21 : Joiner 3:21 End execute (0 secs)
+2026-10-09 09:44:50,309 : INFO  : KNIME-Worker-22-Rule-based Row Filter 3:27 :  : LocalNodeExecutionJob : Rule-based Row Filter : 3:27 : Rule-based Row Filter 3:27 End execute (0 secs)
+2026-10-09 09:44:50,310 : INFO  : KNIME-Worker-21-Math Formula 3:12 :  : LocalNodeExecutionJob : Math Formula : 3:12 : Math Formula 3:12 End execute (0 secs)
+2026-10-09 09:44:50,311 : INFO  : KNIME-Worker-24-Math Formula 3:15 :  : LocalNodeExecutionJob : Math Formula : 3:15 : Math Formula 3:15 End execute (0 secs)
+2026-10-09 09:44:50,313 : INFO  : KNIME-Worker-23-Math Formula 3:16 :  : LocalNodeExecutionJob : Math Formula : 3:16 : Math Formula 3:16 End execute (0 secs)
+2026-10-09 09:44:50,318 : INFO  : KNIME-Worker-24-Table to JSON 3:24 :  : LocalNodeExecutionJob : Table to JSON : 3:24 : Table to JSON 3:24 End execute (0 secs)
+2026-10-09 09:44:50,320 : INFO  : KNIME-Worker-21-GroupBy 3:22 :  : LocalNodeExecutionJob : GroupBy : 3:22 : GroupBy 3:22 End execute (0 secs)
+2026-10-09 09:44:50,322 : INFO  : KNIME-Worker-23-JSON Writer 3:25 :  : LocalNodeExecutionJob : JSON Writer : 3:25 : JSON Writer 3:25 End execute (0 secs)
+2026-10-09 09:44:50,323 : INFO  : KNIME-Worker-24-CSV Writer 3:23 :  : LocalNodeExecutionJob : CSV Writer : 3:23 : CSV Writer 3:23 End execute (0 secs)
+2026-10-09 09:44:50,361 : INFO  : KNIME-Worker-22-DB Writer 3:18 :  : LocalNodeExecutionJob : DB Writer : 3:18 : DB Writer 3:18 End execute (0 secs)
+2026-10-09 09:45:54,684 : WARN  : comm-pool-thread-17 :  : Node : Math Formula : 3:28 : No configuration available
+2026-10-09 09:46:37,877 : INFO  : KNIME-Worker-25-Math Formula 3:28 :  : LocalNodeExecutionJob : Math Formula : 3:28 : Math Formula 3:28 End execute (0 secs)
+2026-10-09 09:47:21,924 : ERROR : Thread-47582 :  : KnimeBrowserView :  :  : TypeError: Cannot read properties of undefined (reading 'bendpoints') (source: https://org.knime.ui.java/editor/assets/editor-CIijjzSo.js; line: 3)
+2026-10-09 09:47:37,374 : WARN  : comm-pool-thread-17 :  : Node : Math Formula : 3:29 : No configuration available
+2026-10-09 09:47:56,920 : INFO  : KNIME-Worker-28-Math Formula 3:29 :  : LocalNodeExecutionJob : Math Formula : 3:29 : Math Formula 3:29 End execute (0 secs)
+2026-10-09 09:48:07,964 : INFO  : KNIME-Worker-25-GET Request 3:5 :  : RestNodeModel : GET Request : 3:5 : The KNIME-wide proxy settings are activated but none were specified. Defaulting to using no proxy.
+2026-10-09 09:48:07,966 : INFO  : KNIME-Worker-26-XML Reader 3:2 :  : LocalNodeExecutionJob : XML Reader : 3:2 : XML Reader 3:2 End execute (0 secs)
+2026-10-09 09:48:07,967 : INFO  : KNIME-Worker-27-CSV Reader 3:4 :  : LocalNodeExecutionJob : CSV Reader : 3:4 : CSV Reader 3:4 End execute (0 secs)
+2026-10-09 09:48:07,980 : INFO  : KNIME-Worker-26-Row Filter 3:8 :  : LocalNodeExecutionJob : Row Filter : 3:8 : Row Filter 3:8 End execute (0 secs)
+2026-10-09 09:48:07,984 : INFO  : KNIME-Worker-29-XPath 3:3 :  : LocalNodeExecutionJob : XPath : 3:3 : XPath 3:3 End execute (0 secs)
+2026-10-09 09:48:07,993 : INFO  : KNIME-Worker-28-PostgreSQL Connector 3:17 :  : LocalNodeExecutionJob : PostgreSQL Connector : 3:17 : PostgreSQL Connector 3:17 End execute (0 secs)
+2026-10-09 09:48:07,993 : INFO  : KNIME-Worker-27-Duplicate Row Filter 3:9 :  : LocalNodeExecutionJob : Duplicate Row Filter : 3:9 : Duplicate Row Filter 3:9 End execute (0 secs)
+2026-10-09 09:48:08,002 : INFO  : KNIME-Worker-26-Missing Value 3:10 :  : PMMLPortObject : Missing Value : 3:10 : No mining schema found.
+2026-10-09 09:48:08,002 : INFO  : KNIME-Worker-26-Missing Value 3:10 :  : LocalNodeExecutionJob : Missing Value : 3:10 : Missing Value 3:10 End execute (0 secs)
+2026-10-09 09:48:08,006 : INFO  : KNIME-Worker-29-Rule-based Row Filter 3:26 :  : LocalNodeExecutionJob : Rule-based Row Filter : 3:26 : Rule-based Row Filter 3:26 End execute (0 secs)
+2026-10-09 09:48:08,013 : INFO  : KNIME-Worker-28-Joiner 3:11 :  : LocalNodeExecutionJob : Joiner : 3:11 : Joiner 3:11 End execute (0 secs)
+2026-10-09 09:48:08,228 : INFO  : KNIME-Worker-25-GET Request 3:5 :  : LocalNodeExecutionJob : GET Request : 3:5 : GET Request 3:5 End execute (0 secs)
+2026-10-09 09:48:08,239 : INFO  : KNIME-Worker-27-JSON Path 3:6 :  : LocalNodeExecutionJob : JSON Path : 3:6 : JSON Path 3:6 End execute (0 secs)
+2026-10-09 09:48:08,240 : INFO  : KNIME-Worker-29-Ungroup 3:7 :  : LocalNodeExecutionJob : Ungroup : 3:7 : Ungroup 3:7 End execute (0 secs)
+2026-10-09 09:48:08,246 : INFO  : KNIME-Worker-28-Row Filter 3:19 :  : LocalNodeExecutionJob : Row Filter : 3:19 : Row Filter 3:19 End execute (0 secs)
+2026-10-09 09:48:08,248 : INFO  : KNIME-Worker-25-Rule Engine 3:20 :  : LocalNodeExecutionJob : Rule Engine : 3:20 : Rule Engine 3:20 End execute (0 secs)
+2026-10-09 09:48:08,257 : INFO  : KNIME-Worker-26-Joiner 3:21 :  : LocalNodeExecutionJob : Joiner : 3:21 : Joiner 3:21 End execute (0 secs)
+2026-10-09 09:48:08,259 : INFO  : KNIME-Worker-27-Rule-based Row Filter 3:27 :  : LocalNodeExecutionJob : Rule-based Row Filter : 3:27 : Rule-based Row Filter 3:27 End execute (0 secs)
+2026-10-09 09:48:08,262 : INFO  : KNIME-Worker-29-Math Formula 3:12 :  : LocalNodeExecutionJob : Math Formula : 3:12 : Math Formula 3:12 End execute (0 secs)
+2026-10-09 09:48:08,264 : INFO  : KNIME-Worker-28-Math Formula 3:15 :  : LocalNodeExecutionJob : Math Formula : 3:15 : Math Formula 3:15 End execute (0 secs)
+2026-10-09 09:48:08,266 : INFO  : KNIME-Worker-25-Math Formula 3:16 :  : LocalNodeExecutionJob : Math Formula : 3:16 : Math Formula 3:16 End execute (0 secs)
+2026-10-09 09:48:08,267 : INFO  : KNIME-Worker-26-Math Formula 3:28 :  : LocalNodeExecutionJob : Math Formula : 3:28 : Math Formula 3:28 End execute (0 secs)
+2026-10-09 09:48:08,268 : INFO  : KNIME-Worker-27-Math Formula 3:29 :  : LocalNodeExecutionJob : Math Formula : 3:29 : Math Formula 3:29 End execute (0 secs)
+2026-10-09 09:48:08,272 : INFO  : KNIME-Worker-25-Table to JSON 3:24 :  : LocalNodeExecutionJob : Table to JSON : 3:24 : Table to JSON 3:24 End execute (0 secs)
+2026-10-09 09:48:08,273 : INFO  : KNIME-Worker-29-GroupBy 3:22 :  : LocalNodeExecutionJob : GroupBy : 3:22 : GroupBy 3:22 End execute (0 secs)
+2026-10-09 09:48:08,278 : INFO  : KNIME-Worker-27-CSV Writer 3:23 :  : LocalNodeExecutionJob : CSV Writer : 3:23 : CSV Writer 3:23 End execute (0 secs)
+2026-10-09 09:48:08,279 : INFO  : KNIME-Worker-26-JSON Writer 3:25 :  : LocalNodeExecutionJob : JSON Writer : 3:25 : JSON Writer 3:25 End execute (0 secs)
+2026-10-09 09:48:08,315 : INFO  : KNIME-Worker-28-DB Writer 3:18 :  : LocalNodeExecutionJob : DB Writer : 3:18 : DB Writer 3:18 End execute (0 secs)
+2026-10-09 10:06:27,827 : INFO  : KNIME-Worker-30-JSON Path 3:6 :  : LocalNodeExecutionJob : JSON Path : 3:6 : JSON Path 3:6 End execute (0 secs)
+2026-10-09 10:06:29,387 : INFO  : KNIME-Worker-32-Ungroup 3:7 :  : LocalNodeExecutionJob : Ungroup : 3:7 : Ungroup 3:7 End execute (0 secs)
+2026-10-09 10:07:01,457 : INFO  : KNIME-Worker-33-Row Filter 3:19 :  : LocalNodeExecutionJob : Row Filter : 3:19 : Row Filter 3:19 End execute (0 secs)
+2026-10-09 10:07:03,402 : INFO  : KNIME-Worker-34-Rule Engine 3:20 :  : LocalNodeExecutionJob : Rule Engine : 3:20 : Rule Engine 3:20 End execute (0 secs)
+2026-10-09 10:07:06,019 : INFO  : KNIME-Worker-31-Joiner 3:21 :  : LocalNodeExecutionJob : Joiner : 3:21 : Joiner 3:21 End execute (0 secs)
+2026-10-09 10:07:41,662 : INFO  : KNIME-Worker-30-Joiner 3:21 :  : LocalNodeExecutionJob : Joiner : 3:21 : Joiner 3:21 End execute (0 secs)
+2026-10-09 10:07:50,070 : INFO  : KNIME-Worker-33-XML Reader 3:2 :  : LocalNodeExecutionJob : XML Reader : 3:2 : XML Reader 3:2 End execute (0 secs)
+2026-10-09 10:07:50,072 : INFO  : KNIME-Worker-34-CSV Reader 3:4 :  : LocalNodeExecutionJob : CSV Reader : 3:4 : CSV Reader 3:4 End execute (0 secs)
+2026-10-09 10:07:50,072 : INFO  : KNIME-Worker-32-GET Request 3:5 :  : RestNodeModel : GET Request : 3:5 : The KNIME-wide proxy settings are activated but none were specified. Defaulting to using no proxy.
+2026-10-09 10:07:50,086 : INFO  : KNIME-Worker-33-Row Filter 3:8 :  : LocalNodeExecutionJob : Row Filter : 3:8 : Row Filter 3:8 End execute (0 secs)
+2026-10-09 10:07:50,094 : INFO  : KNIME-Worker-34-Duplicate Row Filter 3:9 :  : LocalNodeExecutionJob : Duplicate Row Filter : 3:9 : Duplicate Row Filter 3:9 End execute (0 secs)
+2026-10-09 10:07:50,094 : INFO  : KNIME-Worker-30-XPath 3:3 :  : LocalNodeExecutionJob : XPath : 3:3 : XPath 3:3 End execute (0 secs)
+2026-10-09 10:07:50,109 : INFO  : KNIME-Worker-33-Missing Value 3:10 :  : PMMLPortObject : Missing Value : 3:10 : No mining schema found.
+2026-10-09 10:07:50,110 : INFO  : KNIME-Worker-33-Missing Value 3:10 :  : LocalNodeExecutionJob : Missing Value : 3:10 : Missing Value 3:10 End execute (0 secs)
+2026-10-09 10:07:50,113 : INFO  : KNIME-Worker-34-Rule-based Row Filter 3:26 :  : LocalNodeExecutionJob : Rule-based Row Filter : 3:26 : Rule-based Row Filter 3:26 End execute (0 secs)
+2026-10-09 10:07:50,121 : INFO  : KNIME-Worker-30-Joiner 3:11 :  : LocalNodeExecutionJob : Joiner : 3:11 : Joiner 3:11 End execute (0 secs)
+2026-10-09 10:07:50,134 : INFO  : KNIME-Worker-31-PostgreSQL Connector 3:17 :  : LocalNodeExecutionJob : PostgreSQL Connector : 3:17 : PostgreSQL Connector 3:17 End execute (0 secs)
+2026-10-09 10:07:50,293 : INFO  : KNIME-Worker-32-GET Request 3:5 :  : LocalNodeExecutionJob : GET Request : 3:5 : GET Request 3:5 End execute (0 secs)
+2026-10-09 10:07:50,307 : INFO  : KNIME-Worker-33-JSON Path 3:6 :  : LocalNodeExecutionJob : JSON Path : 3:6 : JSON Path 3:6 End execute (0 secs)
+2026-10-09 10:07:50,308 : INFO  : KNIME-Worker-30-Ungroup 3:7 :  : LocalNodeExecutionJob : Ungroup : 3:7 : Ungroup 3:7 End execute (0 secs)
+2026-10-09 10:07:50,314 : INFO  : KNIME-Worker-31-Row Filter 3:19 :  : LocalNodeExecutionJob : Row Filter : 3:19 : Row Filter 3:19 End execute (0 secs)
+2026-10-09 10:07:50,317 : INFO  : KNIME-Worker-32-Rule Engine 3:20 :  : LocalNodeExecutionJob : Rule Engine : 3:20 : Rule Engine 3:20 End execute (0 secs)
+2026-10-09 10:07:50,321 : INFO  : KNIME-Worker-34-Joiner 3:21 :  : LocalNodeExecutionJob : Joiner : 3:21 : Joiner 3:21 End execute (0 secs)
+2026-10-09 10:07:50,322 : INFO  : KNIME-Worker-33-Rule-based Row Filter 3:27 :  : LocalNodeExecutionJob : Rule-based Row Filter : 3:27 : Rule-based Row Filter 3:27 End execute (0 secs)
+2026-10-09 10:07:50,324 : INFO  : KNIME-Worker-30-Math Formula 3:12 :  : LocalNodeExecutionJob : Math Formula : 3:12 : Math Formula 3:12 End execute (0 secs)
+2026-10-09 10:07:50,326 : INFO  : KNIME-Worker-31-Math Formula 3:15 :  : LocalNodeExecutionJob : Math Formula : 3:15 : Math Formula 3:15 End execute (0 secs)
+2026-10-09 10:07:50,328 : INFO  : KNIME-Worker-32-Math Formula 3:16 :  : LocalNodeExecutionJob : Math Formula : 3:16 : Math Formula 3:16 End execute (0 secs)
+2026-10-09 10:07:50,330 : INFO  : KNIME-Worker-34-Math Formula 3:28 :  : LocalNodeExecutionJob : Math Formula : 3:28 : Math Formula 3:28 End execute (0 secs)
+2026-10-09 10:07:50,332 : INFO  : KNIME-Worker-33-Math Formula 3:29 :  : LocalNodeExecutionJob : Math Formula : 3:29 : Math Formula 3:29 End execute (0 secs)
+2026-10-09 10:07:50,338 : INFO  : KNIME-Worker-32-Table to JSON 3:24 :  : LocalNodeExecutionJob : Table to JSON : 3:24 : Table to JSON 3:24 End execute (0 secs)
+2026-10-09 10:07:50,340 : INFO  : KNIME-Worker-30-GroupBy 3:22 :  : LocalNodeExecutionJob : GroupBy : 3:22 : GroupBy 3:22 End execute (0 secs)
+2026-10-09 10:07:50,341 : INFO  : KNIME-Worker-34-JSON Writer 3:25 :  : LocalNodeExecutionJob : JSON Writer : 3:25 : JSON Writer 3:25 End execute (0 secs)
+2026-10-09 10:07:50,344 : INFO  : KNIME-Worker-33-CSV Writer 3:23 :  : LocalNodeExecutionJob : CSV Writer : 3:23 : CSV Writer 3:23 End execute (0 secs)
+2026-10-09 10:07:50,390 : INFO  : KNIME-Worker-31-DB Writer 3:18 :  : LocalNodeExecutionJob : DB Writer : 3:18 : DB Writer 3:18 End execute (0 secs)
+2026-10-09 12:46:14,108 : INFO  : KNIME shutdown hooks - org.knime.core.util.FileUtil$$Lambda/0x0000023633537588 :  : FileUtil :  :  : Deleting 23 temporary files.

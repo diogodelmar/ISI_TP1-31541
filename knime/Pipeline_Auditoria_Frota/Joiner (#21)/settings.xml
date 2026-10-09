@@ -65,8 +65,9 @@
             </config>
             <config key="manualFilter">
                 <config key="manuallySelected">
-                    <entry key="array-size" type="xint" value="1"/>
+                    <entry key="array-size" type="xint" value="2"/>
                     <entry key="0" type="xstring" value="avg_price_eurs"/>
+                    <entry key="1" type="xstring" value="data_referencia_api"/>
                 </config>
                 <config key="manuallyDeselected">
                     <entry key="array-size" type="xint" value="4"/>
@@ -115,7 +116,7 @@
             <entry key="index" type="xint" value="1"/>
             <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
             <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-            <entry key="port_object_summary" type="xstring" value="Rows: 7, Cols: 12"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 8, Cols: 13"/>
             <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
         <config key="port_2">
@@ -139,6 +140,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="325ce5d6-65fe-4753-aedb-7896d1349c24"/>
+        <entry key="file_store_id" type="xstring" value="c231be64-9f8e-4b76-9f48-99b6e00d4558"/>
     </config>
 </config>
